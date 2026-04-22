@@ -1,16 +1,90 @@
-# React + Vite
+# 🔐 Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Password Generator Web App** built using **React + Vite**, designed to generate strong and customizable passwords instantly in the browser.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 https://dev2srh.github.io/Password-Generator/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Features
 
-## Expanding the ESLint configuration
+* 🔑 Generate strong, secure passwords
+* 🎛️ Customize password length
+* 🔡 Include/exclude:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  * Uppercase letters
+  * Lowercase letters
+  * Numbers
+  * Symbols
+* 📋 Copy password to clipboard
+* ⚡ Fast and optimized with Vite
+* 📱 Responsive UI
+
+---
+
+## 🛠️ Tech Stack
+
+* **React (Vite)** – UI and component-based architecture
+* **JavaScript (ES6+)** – Logic and functionality
+* **CSS3** – Styling
+* **Vite** – Fast build tool and dev server
+
+---
+
+## 📂 Project Structure
+
+```bash
+Password-Generator/
+│── public/
+│── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   ├── main.jsx
+│── index.html
+│── vite.config.js
+│── package.json
+```
+
+---
+
+## ⚙️ How It Works
+
+* User selects password criteria (length, characters)
+* JavaScript generates a random password based on selected options
+* React manages state and UI updates efficiently
+* Password can be copied directly to clipboard
+
+---
+
+## 🧠 Learning Outcomes
+
+* React fundamentals (components, state, props)
+* Vite build system and optimization
+* Handling deployment issues (base path)
+* Building real-world utility apps
+
+---
+
+## 🔮 Future Improvements
+
+* 🔐 Password strength indicator
+* 💾 Save passwords (LocalStorage)
+* 🎨 Dark mode
+* 🌍 Multi-language support
+* ☁️ Backend integration (MERN stack)
+
+---
+
+## 📄 License
+
+Open-source under the **MIT License**
+
+---
+
+## 👨‍💻 Author
+
+Developed by **dev2srh**
